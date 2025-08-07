@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+
+}
+
+.input {
+  width: 250px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+}
+
+.menu__elem {
+  list-style: none;
+  padding: 0;
+  border: solid 1px black;
+  display: block;
+  min-width: 254px;
+  background-color: #E3E3E3;
+}
+
+.menu__elem:hover {
+  background-color: #65CDF9;
+}
+
+.selected-repos {
+  min-width: 254px;
+  padding: 0;
+}
+
+.selected-repos__elem {
+  list-style: none;
+  border: solid 1px black;
+  background-color: #E27BEB;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.button-remove { 
+  background: none; 
+  border: none; 
+  outline: none; 
+  box-shadow: none; 
+}
+
+.cross {
+  width: 50px;
+}
